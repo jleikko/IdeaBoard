@@ -1,8 +1,8 @@
 ## JAAKKO
 
 * MA 10-13 (Workflow kuntoon ja backend-serverin selvitystä)
-* TI (Videoiden ja tutoriaalien läpikäyminen, backend-pohja ylös)
-* KE 12-14 (Tutoriaalin tekeminen)
+* TI 12-14 (AngularJS:n oman tutoriaalin tekeminen)
+* KE (Projektityön arkkitehtuurin suunnittelu ja rakentaminen, backend-pohja ylös)
 * TO
 * PE
 * LA
