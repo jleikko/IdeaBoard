@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Email sending",
+        "content": "A story about a girl sending an email to her boyfriend",
+        "nick": "Girl95",
+        "profession": "student"
+    },
+    {
+        "title": "A Google Search",
+        "content": "An animation about how a user finds the required information with a search engine",
+        "nick": "Developer",
+        "profession": "IT-specialist"
+    },
+    {
+        "title": "Facebook status update",
+        "content": "mother updates facebook status after giving birth to a child",
+        "nick": "Father",
+        "profession": "none"
+    }
+]
