@@ -5,14 +5,22 @@
 
     <div class="col-md-4">
         <h4>TOP IDEAS</h4>
-        Search: <input type="text"/>
+        Search: <input type="text" ng-model="ideasearch"/>
+        <div id="toplist">
+            <ul>
+                <li class="TopIdeaListItem" ng-repeat="idea in ideas | filter:ideasearch | limitTo: topIdeaLimit">
+                    {{ideas.indexOf(idea)+1}}. <span class="TopIdeaListLink" ng-click="showIdea(idea)">{{idea.title}}</<span>
+                </li>
+                <li class="TopIdeaListItem" ng-show="(ideas | filter:ideasearch).length > topIdeaLimit">...</li>
+            </ul>
 
+        </div>
     </div>
     <div class="col-md-8">
-        <h2>MyTitle</h2>
+        <h2>{{sidea.title}}</h2>
 
-        <p>Lorem ipsum</p>
+        <p>{{sidea.content}}</p>
 
-        <p><em>by: Somebody</em></p>
+        <p><em>by: {{sidea.author}}</em></p>
     </div>
 </div>

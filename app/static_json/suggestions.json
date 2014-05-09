@@ -1,20 +1,82 @@
 [
     {
+        "title": "Facebook status update",
+        "content": "mother updates facebook status after giving birth to a child",
+        "author": "Father",
+        "profession": "none",
+        "plus": 54,
+        "minus": 22
+    },
+    {
         "title": "Email sending",
         "content": "A story about a girl sending an email to her boyfriend",
-        "nick": "Girl95",
-        "profession": "student"
+        "author": "Girl95",
+        "profession": "student",
+        "plus": 7,
+        "minus": 2
     },
     {
         "title": "A Google Search",
         "content": "An animation about how a user finds the required information with a search engine",
-        "nick": "Developer",
-        "profession": "IT-specialist"
+        "author": "Developer",
+        "profession": "IT-professional",
+        "plus": 3,
+        "minus": 1
     },
     {
-        "title": "Facebook status update",
-        "content": "mother updates facebook status after giving birth to a child",
-        "nick": "Father",
-        "profession": "none"
+        "title": "laboris",
+        "content": "Amet aute duis laborum aute. Cupidatat ut officia fugiat eiusmod magna Lorem dolore reprehenderit Lorem. Sit nostrud exercitation culpa aute velit. Ipsum id nisi ex proident eiusmod reprehenderit nostrud commodo voluptate. Lorem ad laboris ex minim consectetur incididunt. Velit incididunt culpa ex dolor ut mollit. Officia minim non non quis duis sit cupidatat id exercitation ullamco aute mollit reprehenderit mollit.\r\n",
+        "author": "justme",
+        "profession": "IT-professional",
+        "plus": 65,
+        "minus": 44
+    },
+    {
+        "title": "ullamco",
+        "content": "Qui aliqua aliquip laborum reprehenderit sit magna duis consectetur eiusmod occaecat est exercitation magna. Commodo laborum laboris velit eiusmod exercitation est fugiat nulla consectetur excepteur exercitation anim nulla. Qui deserunt tempor commodo sunt qui culpa sint aliquip non quis amet ex. Laboris ea incididunt dolore in. Reprehenderit consequat voluptate amet sunt. Eu pariatur magna dolor exercitation amet cupidatat aute incididunt voluptate excepteur enim deserunt dolor. Ad reprehenderit cupidatat ea magna adipisicing aute Lorem adipisicing et aliquip et.\r\n",
+        "author": "guy80",
+        "profession": "none",
+        "plus": 3,
+        "minus": 15
+    },
+    {
+        "title": "ullamco",
+        "content": "Cupidatat esse exercitation in ipsum magna laborum enim ad irure laboris commodo. Minim irure non ad qui ut officia sunt fugiat anim fugiat officia ipsum laborum ipsum. Velit ea elit nulla sint sit ex veniam ullamco sunt ipsum. Nulla elit do dolore exercitation consectetur reprehenderit quis nulla id fugiat consequat ea. Veniam veniam aliquip amet nulla officia ea amet elit.\r\n",
+        "author": "justme",
+        "profession": "none",
+        "plus": 76,
+        "minus": 22
+    },
+    {
+        "title": "aliqua",
+        "content": "Ipsum laboris ullamco laborum aliqua labore officia commodo. Voluptate aliqua et qui laborum et incididunt sint duis adipisicing. Tempor amet eiusmod incididunt velit. Deserunt dolore sunt cillum enim occaecat qui laborum qui commodo consequat dolor exercitation elit. Ut est amet laboris esse anim reprehenderit irure veniam aliquip. Do reprehenderit laborum voluptate occaecat laborum magna eiusmod est. Ullamco sunt labore amet est labore aliqua quis anim nostrud nisi aliquip sint.\r\n",
+        "author": "girl95",
+        "profession": "student",
+        "plus": 37,
+        "minus": 39
+    },
+    {
+        "title": "elit",
+        "content": "Cillum pariatur voluptate velit mollit eiusmod veniam aliqua ut ad. Minim exercitation pariatur officia nostrud quis ut proident in consequat excepteur Lorem cupidatat. Et cupidatat anim aliquip fugiat est deserunt quis sit proident occaecat reprehenderit. Sit pariatur consequat dolor magna sunt. Proident exercitation eiusmod commodo pariatur pariatur sunt reprehenderit. Enim fugiat eu excepteur culpa dolore sit pariatur magna deserunt duis aliquip deserunt. Labore nulla in velit duis culpa laboris cillum do adipisicing duis.\r\n",
+        "author": "justme",
+        "profession": "IT-professional",
+        "plus": 79,
+        "minus": 31
+    },
+    {
+        "title": "cillum",
+        "content": "Cillum veniam amet velit Lorem eu. Nostrud id excepteur nisi do mollit commodo laborum occaecat aliquip deserunt dolor nostrud. Voluptate dolor est exercitation nisi aliquip fugiat. Labore Lorem exercitation laborum voluptate cupidatat id consectetur mollit id culpa. Id proident id do duis sit sint. In proident aute commodo ipsum enim Lorem sit nostrud nulla sunt labore sint. Nulla nostrud ea deserunt ullamco velit aute deserunt exercitation Lorem Lorem culpa non.\r\n",
+        "author": "guy80",
+        "profession": "none",
+        "plus": 40,
+        "minus": 97
+    },
+    {
+        "title": "nulla",
+        "content": "Eiusmod Lorem amet aute reprehenderit tempor qui velit ipsum dolore deserunt. Irure duis voluptate commodo ut qui elit eiusmod aute est mollit. Aliqua nostrud minim est nulla id aliquip excepteur excepteur mollit irure velit elit. Non nisi voluptate pariatur proident adipisicing Lorem id veniam consequat incididunt nisi et consectetur ut. Sint veniam mollit officia magna ullamco ut velit enim sunt reprehenderit adipisicing elit. Cillum eiusmod esse consequat amet irure est deserunt elit laboris.\r\n",
+        "author": "guy80",
+        "profession": "student",
+        "plus": 32,
+        "minus": 63
     }
 ]

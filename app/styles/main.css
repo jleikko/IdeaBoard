@@ -77,3 +77,11 @@ body {
     border-bottom: 0;
   }
 }
+
+.TopIdeaListItem {
+    list-style-type: none;
+}
+.TopIdeaListLink {
+    color: #0000ff;
+    cursor: pointer;
+}
