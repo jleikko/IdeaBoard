@@ -81,6 +81,9 @@ body {
 .TopIdeaListItem {
     list-style-type: none;
 }
+.TopIdeaListItemSelected {
+    list-style-type: circle;
+}
 .TopIdeaListLink {
     color: #0000ff;
     cursor: pointer;
