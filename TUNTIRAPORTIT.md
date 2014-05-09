@@ -11,11 +11,11 @@
 
 ## JUHANI
 
-* MA
-* TI
-* KE
-* TO
-* PE
+* MA +6h=06h 10-12 Aloitusluento, sitä ennen ainakin 4h oman AngularJS demosaitti, jossa Factory/Routes etc. saakka
+* TI +2h=08h lisää Angularin opiskelua, ei vielä aikaa projektille.
+* KE +0h=08h, ei vielä aikaa projektille.
+* TO +0h=08h, ei vielä aikaa projektille.
+* PE +2h=10h
 * LA
 * SU
 * MA
