@@ -84,7 +84,10 @@ body {
 .TopIdeaListItemSelected {
     list-style-type: circle;
 }
-.TopIdeaListLink {
+.MyLink {
     color: #0000ff;
     cursor: pointer;
+}
+.TinyText {
+    font-size: 10px;
 }

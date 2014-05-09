@@ -5,11 +5,11 @@
 
     <div class="col-md-4">
         <h4>TOP IDEAS</h4>
-        Search: <input type="text" ng-model="ideasearch" ng-change="searchChange()"/>
+        Search: <input type="text" ng-model="ideasearch" ng-change="searchChanged(ideasearch)"/>
         <div id="toplist">
             <ul>
                 <li ng-class="idea === sidea ? 'TopIdeaListItemSelected' : 'TopIdeaListItem'" ng-repeat="idea in ideas | filter:ideasearch | limitTo: topIdeaLimit">
-                    {{ideas.indexOf(idea)+1}}. <span class="TopIdeaListLink" ng-click="showIdea(idea)">{{idea.title}}</<span>
+                    {{ideas.indexOf(idea)+1}}. <span class="MyLink" ng-click="showIdea(idea)">{{idea.title}}</<span>
                 </li>
                 <li class="TopIdeaListItem" ng-show="(ideas | filter:ideasearch).length > topIdeaLimit">...</li>
             </ul>
@@ -17,7 +17,8 @@
         </div>
     </div>
     <div class="col-md-8">
-        <h2>{{sidea.title}}</h2>
+        <a id="showidea"/>
+        <h2>{{sidea.title}} <a href="?id={{sidea.id}}#showidea" class="MyLink TinyText">[Direct link]</a></h2>
 
         <p>{{sidea.content}}</p>
 

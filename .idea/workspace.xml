@@ -6,6 +6,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/plotidea.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/plotidea.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/read.html" afterPath="$PROJECT_DIR$/app/views/read.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static_json/suggestions.json" afterPath="$PROJECT_DIR$/app/static_json/suggestions.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IdeaBoard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,31 +30,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="57" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-29.041666" vertical-offset="53" max-vertical-offset="855">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="28" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1440">
+            <state line="91" column="17" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
+            <state line="54" column="7" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-30.208334" vertical-offset="85" max-vertical-offset="900">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,30 +59,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plotidea.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/plotidea.js">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suggestions.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static_json/suggestions.json">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="724" selection-end="724" vertical-scroll-proportion="8.125" vertical-offset="555" max-vertical-offset="1320">
-              <folding>
-                <marker date="1399630988000" expanded="true" signature="243:460" placeholder="{&quot;title&quot;: &quot;Email sending&quot;...}" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6015">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="plotidea.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/spec/controllers/plotidea.js">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/plotidea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="243" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="25" column="28" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -104,19 +104,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="read.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/read.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="6" selection-start="867" selection-end="867" vertical-scroll-proportion="0.49019608" vertical-offset="0" max-vertical-offset="765">
+            <state line="20" column="41" selection-start="807" selection-end="807" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="watch.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/watch.html">
+      <file leaf-file-name="suggestions.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static_json/suggestions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="33" selection-start="168" selection-end="168" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+            <state line="92" column="0" selection-start="5426" selection-end="5426" vertical-scroll-proportion="1.8598382" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -139,11 +139,11 @@
         <option value="$PROJECT_DIR$/app/views/write.html" />
         <option value="$PROJECT_DIR$/test/spec/controllers/plotidea.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/static_json/suggestions.json" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/plotidea.js" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/static_json/suggestions.json" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/views/read.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/plotidea.js" />
       </list>
     </option>
   </component>
@@ -209,42 +209,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IdeaBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,44 +485,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="180" selection-end="192" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/controllers/plotidea.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="23" selection-start="243" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
@@ -570,12 +499,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static_json/suggestions.json">
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="724" selection-end="724" vertical-scroll-proportion="8.125" vertical-offset="555" max-vertical-offset="1320">
-          <folding>
-            <marker date="1399630988000" expanded="true" signature="243:460" placeholder="{&quot;title&quot;: &quot;Email sending&quot;...}" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,16 +513,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="10" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="28" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1440">
+        <state line="91" column="17" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1485">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="57" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-29.041666" vertical-offset="53" max-vertical-offset="855">
+        <state line="54" column="7" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-30.208334" vertical-offset="85" max-vertical-offset="900">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -604,14 +566,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/plotidea.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="25" column="28" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/read.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="6" selection-start="867" selection-end="867" vertical-scroll-proportion="0.49019608" vertical-offset="0" max-vertical-offset="765">
+        <state line="20" column="41" selection-start="807" selection-end="807" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static_json/suggestions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="5426" selection-end="5426" vertical-scroll-proportion="1.8598382" vertical-offset="0" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>

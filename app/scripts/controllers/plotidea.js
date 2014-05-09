@@ -22,7 +22,8 @@ angular.module('ideaBoardApp')
         };
 
 
-        $scope.searchChange = function () {
-            $scope.sidea = $filter('filter')($scope.ideas, $scope.ideasearch)[0];
+        $scope.searchChanged = function (newvalue) {
+            console.debug($scope.ideasearch);
+            $scope.sidea = $filter('filter')($scope.ideas, newvalue)[0];
         };
     });
