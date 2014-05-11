@@ -5,11 +5,11 @@
 * KE 11-19 (AngularJS:n oman tutoriaalin jatkaminen, layout-suunnittelu, Menu-kirjastoihin tutustuminen, JS-opettelu, pääsivun pohjan tekeminen)
 * TO 12-13 (Arkkitehtuurikonsultaatio)
 * PE 11-17 (hakuominaisuuksia, suora linkki)
-* LA -
-* SU 11-17 (suora linkki, layout fixing)
+* LA 11-12 (suora linkki)
+* SU 11-17, 20-01 (suora linkki, scrolling, layout)
 * MA
 * 
-YHTEENSÄ TUNTEJA: 3+2+8+1+6+6=26
+YHTEENSÄ TUNTEJA: 3+2+8+1+6+1+11=32
 
 ## JUHANI
 
