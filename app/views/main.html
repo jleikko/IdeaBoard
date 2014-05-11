@@ -35,21 +35,17 @@
   <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
 </div>
 -->
-
-<div id="mainmenu" style="float:right;">
-    <ul>
-        <li>WATCH</li>
-        <li>WRITE</li>
-        <li>READ</li>
-    </ul>
-</div>
-
-<section id="teaserpage" ng-include="'views/watch.html'"></section>
 <div ng-controller="PlotIdeaCtrl">
-    <section id="writepage" ng-include="'views/write.html'"></section>
-    <section id="readpage" ng-include="'views/read.html'"></section>
+    <div id="mainmenu">
+
+            <p class="MenuItem" ng-click="showPart('teaserpage')">WATCH</p>
+            <p class="MenuItem" ng-click="showPart('writepage')">WRITE</p>
+            <p class="MenuItem" ng-click="showPart('readpage')">READ</p>
+
+    </div>
+    <div id="pages">
+        <section id="teaserpage" ng-include="'views/watch.html'"></section>
+        <section id="writepage" ng-include="'views/write.html'"></section>
+        <section id="readpage" ng-include="'views/read.html'"></section>
+    </div>
 </div>
-<p></p>
-<p></p>
-<p></p>
-<p></p>

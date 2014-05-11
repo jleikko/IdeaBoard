@@ -1,12 +1,11 @@
 'use strict';
 
-angular.module('ideaBoardApp')
-    .controller('PlotIdeaCtrl', function ($scope, $http, $filter) {
+angular.module('ideaBoardApp', ['duScroll'])
+    .controller('PlotIdeaCtrl', function ($scope, $http, $document, $location) {
 
-        $scope.topIdeaLimit = 7;
+        $scope.topIdeaLimit = 10;
         $scope.ideasearch = '';
         $scope.ideas = [];
-
 
 
         $http.get('static_json/suggestions.json').success(function (data) {
@@ -26,4 +25,24 @@ angular.module('ideaBoardApp')
             console.debug($scope.ideasearch);
             $scope.sidea = $filter('filter')($scope.ideas, newvalue)[0];
         };
+
+        $scope.showPart = function (position) {
+            var someElement = angular.element(document.getElementById(position));
+            $document.scrollToElement(someElement, 10, 500);
+        }
+
+
+
+        setTimeout(function () {
+            var ideaId = $location.search()['id'];
+            var ideaObj = $scope.ideas.filter(function(idea) {return idea['id']==ideaId;})[0];
+            if (ideaObj) {
+                $scope.showPart('readpage')
+                $scope.sidea = ideaObj;
+                //$scope.ideasearch = ideaObj.title;
+                $scope.$apply();
+            }
+        }, 1000);
+
+
     });

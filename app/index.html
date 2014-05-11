@@ -24,7 +24,8 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
+    <div class="container" ng-include="'views/main.html'" ></div>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -48,13 +49,15 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/plotidea.js"></script>
         <!-- endbuild -->
+
 </body>
 </html>
