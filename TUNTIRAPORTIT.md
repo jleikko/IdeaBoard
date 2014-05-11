@@ -7,9 +7,9 @@
 * PE 11-17 (hakuominaisuuksia, suora linkki)
 * LA 11-12 (suora linkki)
 * SU 11-17, 20-01 (suora linkki, scrolling, layout)
-* MA
+* MA 9-11
 * 
-YHTEENSÄ TUNTEJA: 3+2+8+1+6+1+11=32
+YHTEENSÄ TUNTEJA: 3+2+8+1+6+1+11+2=34
 
 ## JUHANI
 
