@@ -21,4 +21,5 @@ YHTEENSÄ TUNTEJA: 3+2+8+1+6+1+11+2=34
 * LA +3h=13h, heroku-backendin tekoa (tai paremminkin pään hakkaamista seinään), Windowsin vaihto Linuxiin kun heroku-nodejs tuli ongelmaksi. Kaikenlaisia työkaluja koetin asentaa sekä Win että Linux, vain osan sai toimimaan.
 * SU +12h=25h, heroku-backendiin ensin JSON-palveluita, sitten turha yritys MongoDB:n suuntaan, sitten lopulta mySQL (ClearDB.net DBaaS) ja Heroku-NodeJS onnistui yhdistää. Mutta sitten ei löytynyt hyvää olioistamis mallia. Ilmeisesti väki käyttää open source ORM:eja, joita ammattilaiset väsänneet. Aika loppui kesken, mutta kuten näkee, olisi tullut aloittaa aiemmin
 * MA +2h=27h, demotilaisuus, siinähän voi tehdä vianetsintää.
+*
 YHTEENSÄ TUNTEJA: 25-27h (Varmaan paljon enemmänkin oikeasti?)
