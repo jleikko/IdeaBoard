@@ -3,7 +3,7 @@
 angular.module('ideaBoardApp', ['duScroll'])
     .controller('PlotIdeaCtrl', function ($scope, $http, $document, $location) {
 
-        $scope.topIdeaLimit = 10;
+        $scope.topIdeaLimit = 8;
         $scope.ideasearch = '';
         $scope.ideas = [];
 
@@ -28,7 +28,7 @@ angular.module('ideaBoardApp', ['duScroll'])
 
         $scope.showPart = function (position) {
             var someElement = angular.element(document.getElementById(position));
-            $document.scrollToElement(someElement, 10, 500);
+            $document.scrollToElement(someElement, 0, 500);
         }
 
 
@@ -37,7 +37,7 @@ angular.module('ideaBoardApp', ['duScroll'])
             var ideaId = $location.search()['id'];
             var ideaObj = $scope.ideas.filter(function(idea) {return idea['id']==ideaId;})[0];
             if (ideaObj) {
-                $scope.showPart('readpage')
+                $scope.showPart('ideatitle')
                 $scope.sidea = ideaObj;
                 //$scope.ideasearch = ideaObj.title;
                 $scope.$apply();

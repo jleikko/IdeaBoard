@@ -1,24 +1,20 @@
 <h1>Read and Rate plot ideas</h1>
 
-<div class="row">
+<div id="readratecontent">
+    <div id="toplist" class="FlowLayout">
+        <h3>TOP IDEAS</h3>
+        <h4>Search: <input type="text" ng-model="ideasearch" ng-change="searchChanged(ideasearch)"/></h4>
 
-
-    <div class="col-md-3">
-        <h4>TOP IDEAS</h4>
-        Search: <input type="text" ng-model="ideasearch" ng-change="searchChanged(ideasearch)"/>
-        <div id="toplist">
             <ul>
                 <li ng-class="idea === sidea ? 'TopIdeaListItemSelected' : 'TopIdeaListItem'" ng-repeat="idea in ideas | filter:ideasearch | limitTo: topIdeaLimit">
                     {{idea.id}}. <span class="MyLink" ng-click="showIdea(idea)">{{idea.title}}</<span>
                 </li>
                 <li class="TopIdeaListItem" ng-show="(ideas | filter:ideasearch).length > topIdeaLimit">...</li>
-                <li class="TopIdeaListItem" ng-show="(ideas | filter:ideasearch).length === 0">No search results</li>
+                <li class="TopIdeaListItem" ng-show="(ideas | filter:ideasearch).length === 0">No results found.</li>
             </ul>
-
-        </div>
     </div>
-    <div class="col-md-9">
-        <h2>{{sidea.title}} <a ng-href="#/?id={{sidea.id}}" class="MyLink TinyText">[Direct link]</a></h2>
+    <div id="sidea" class="FlowLayout">
+        <h2 id="ideatitle">{{sidea.title}} <a ng-href="#/?id={{sidea.id}}" class="MyLink TinyText">[Direct link]</a></h2>
 
         <p>{{sidea.content}}</p>
 
